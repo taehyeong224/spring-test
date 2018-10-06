@@ -1,7 +1,6 @@
-package main.java.config;
+package config;
 
-
-import main.java.HelloController;
+import controller.HelloController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

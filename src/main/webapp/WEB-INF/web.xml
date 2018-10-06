@@ -20,8 +20,8 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>
-                main.java.config.MvcConfig
-                main.java.config.ControllerConfig
+                config.MvcConfig
+                config.ControllerConfig
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
