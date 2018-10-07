@@ -1,26 +1,26 @@
 package model;
 
-public class Test {
+public class User {
     private String name;
     private int age;
 
 
-    public Test() {
+    public User() {
         this.age = -1;
         this.name = "";
     }
 
-    public Test(int age) {
+    public User(int age) {
         this.age = age;
         this.name = "";
     }
 
-    public Test(String name) {
+    public User(String name) {
         this.name = name;
         this.age = -1;
     }
 
-    public Test(String name, int age) {
+    public User(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -43,7 +43,7 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test{" +
+        return "User{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
