@@ -10,7 +10,6 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>
             /WEB-INF/applicationContext.xml
-            /WEB-INF/mybatisConfig.xml
         </param-value>
     </context-param>
     <servlet>
@@ -26,6 +25,7 @@
                 config.MvcConfig
                 config.ControllerConfig
                 config.ServiceConfig
+                config.AppConfig
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
